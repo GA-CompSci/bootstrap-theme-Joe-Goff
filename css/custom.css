@@ -1,6 +1,14 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/palette/05668d-427aa1-ebf2fa-679436-a5be00
+05668d - Lapis Lazuli
+427aa1 - UCLA Blue
+ebf2fa - Alice Blue
+679436 - Asparagus
+a5be00 - Apple green
+7490a8 - Air Force blue
+223909 - Pakistan Green
+142205 - Dark green
 
 *****/
 
@@ -9,9 +17,112 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family: "Poppins", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Hurricane", cursive;
+}
 
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background: url("../img/Lofoten.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header.masthead h1 {
+    color: #ebf2fa;
+    text-shadow: 2px 2px 5px white; 
+}
+header.masthead p{
+    color: #ebf2fa;
+    text-shadow: 2px 2px 5px white; 
+    font-size: 15px
+}
+
+
+/********************/
+/******* COLORS ******/
+/********************/
+.btn-primary {
+
+    background: #ffffff;
+    border: 4px solid #EBF2FA;
+    color:#427AA1
+}
+.btn-primary:hover,.btn-primary:active, .btn-primary:focus {
+
+    background: #427AA1 !important;
+    border: 4px solid #1f4c6c !important;
+    color:#ffffff;
+}
+
+
+    hr.divider {
+    
+        background-color: #05668d;
+     
+    }
+
+
+.bg-primary {
+    
+    background-color:#142205 !important;
+}
+.text-primary{
+    color: #325211 !important;
+}
+
+/********************/
+/******* NAV ******/
+/********************/
+
+
+#mainNav.navbar-shrink {
+    background-color: #142205;
+}
+#mainNav.navbar-shrink .navbar-brand {
+    color: #ffffff;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link .nav-link:hover,
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active, 
+#mainNav.navbar-shrink .navbar-brand:hover
+{
+    color: #93a87a !important;
+    
+
+
+
+/********************/
+/*** TOP 6 IMAGE ****/
+/********************/
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(7, 36, 35, 0.9);
+    transition: opacity 0.25s ease;
+    text-align: center;
 }
