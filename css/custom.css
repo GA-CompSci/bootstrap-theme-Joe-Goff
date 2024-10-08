@@ -12,117 +12,118 @@ a5be00 - Apple green
 
 *****/
 
-
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
-    font-family: "Poppins", sans-serif;
+body,
+p {
+  font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Hurricane", cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Hurricane", cursive;
 }
 
 /********************/
 /******* HERO ******/
 /********************/
 header.masthead {
-    background: url("../img/Lofoten.jpg");
-    background-position: center;
-    background-size: cover;
+  background: url("../img/Lofoten.jpg");
+  background-position: center;
+  background-size: cover;
 }
 header.masthead h1 {
-    color: #ebf2fa;
-    text-shadow: 2px 2px 5px white; 
+  color: #ebf2fa;
+  text-shadow: 2px 2px 5px white;
 }
-header.masthead p{
-    color: #ebf2fa;
-    text-shadow: 2px 2px 5px white; 
-    font-size: 15px
+header.masthead p {
+  color: #ebf2fa;
+  text-shadow: 2px 2px 5px white;
+  font-size: 15px;
 }
-
 
 /********************/
 /******* COLORS ******/
 /********************/
 .btn-primary {
-
-    background: #ffffff;
-    border: 4px solid #EBF2FA;
-    color:#427AA1
+  background: #223909;
+  border: 4px solid #000000;
+  color: #ffffff;
 }
-.btn-primary:hover,.btn-primary:active, .btn-primary:focus {
-
-    background: #427AA1 !important;
-    border: 4px solid #1f4c6c !important;
-    color:#ffffff;
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #ffffff !important;
+  border: 4px solid #223909 !important;
+  color: #223909;
 }
 
-
-    hr.divider {
-    
-        background-color: #05668d;
-     
-    }
-
+hr.divider {
+  background-color: #223909;
+}
 
 .bg-primary {
-    
-    background-color:#142205 !important;
+  background-color: #142205 !important;
 }
-.text-primary{
-    color: #325211 !important;
+.text-primary {
+  color: #223909 !important;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /********************/
 /******* NAV ******/
 /********************/
 
-
 #mainNav.navbar-shrink {
-    background-color: #142205;
+  background-color: #142205;
 }
 #mainNav.navbar-shrink .navbar-brand {
-    color: #ffffff;
+  color: #ffffff;
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #ffffff;
-    
+  color: #ffffff;
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link .nav-link:hover,
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
-
-
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
-#mainNav .navbar-nav .nav-item .nav-link.active, 
-#mainNav.navbar-shrink .navbar-brand:hover
-{
-    color: #93a87a !important;
-    
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-brand:hover {
+  color: #93a87a !important;
 
-
-
-/********************/
-/*** TOP 6 IMAGE ****/
-/********************/
+  /********************/
+  /*** TOP 6 IMAGE ****/
+  /********************/
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    background: rgba(7, 36, 35, 0.9);
-    transition: opacity 0.25s ease;
-    text-align: center;
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption,
+#portfolio .container-md .portfolio-box .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(7, 36, 35, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
 }
